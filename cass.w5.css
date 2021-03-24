@@ -1,0 +1,22 @@
+h1{
+    color: #fbf7ec;;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 48px;
+}
+h2{
+    margin-left: 50%;
+    color: #fce07d;
+    font-family: 'Prompt', sans-serif;
+}
+
+body{
+    background-color: #3f4537;
+}
+
+.textbox{
+    text-align: center;
+}
+.button1{
+    text-align: center;
+}

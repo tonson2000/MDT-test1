@@ -1,0 +1,94 @@
+body{
+    background-color: #fbf7ec;
+}
+
+fieldset{
+    font-family: 'Prompt', sans-serif;
+    border: 5px solid #3f4537;
+    border-radius: 20px;
+    padding-left: 80px;
+}
+
+fieldset legend{
+    font-size: 30px;
+}
+
+.content{
+    text-align: center;
+    line-height: 40px;
+}
+
+.content input{
+    border: none;
+    background-color: rgb(223, 214, 228);
+    border-bottom: 4px solid #3f4537;
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.content span{
+    font-size: 30px;
+}
+
+.content select{
+    font-size: 20px;
+    border: 5px solid #3f4537;
+    border-radius: 10px;
+    background-color: rgb(223, 214, 228);
+    font-family: 'Prompt', sans-serif;
+    cursor: pointer;
+}
+
+.content button{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content button:hover{
+    transition: all 0.5s;
+    box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+    -webkit-box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+    -moz-box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+}
+
+#timerClock{
+    font-size: 30px;
+}
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid #3f4537;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.red{
+    background-color: rgb(94, 1, 1); 
+}
+.blue{
+    background-color: rgb(0, 0, 94); 
+}
+
+.green{
+    background-color: rgb(0, 44, 0); 
+}
